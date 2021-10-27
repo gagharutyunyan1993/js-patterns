@@ -29,4 +29,8 @@ class CarFactory {
 const factory = new CarFactory();
 
 const bmwX5 = factory.create('bmw',10000);
+const audiX = factory.create('audi',12000);
+const bmwX3 = factory.create('bmw',130000);
 console.log(bmwX5);
+console.log(audiX);
+console.log(bmwX3);
